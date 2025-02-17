@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Lexend", serif;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    height: 100vh;
+}
+
+#card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* border: 1px solid white; */
+    height: auto;
+    text-align: center;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+}
+#head{
+    color: white;
+    font-weight: 300;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+
+.cards img{
+    width: 170px;
+    border: 3px solid transparent;
+    transition: all ease 0.3s;
+
+}
+.cards img:hover{
+    border: 3px solid white;
+}
+
+.cards p{
+    color: dimgray;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.cards:hover p{
+    font-weight: 400;
+    color: rgb(238, 238, 238);
+    transition: all ease 0.3s;
+}
+
+#more{
+    margin-bottom: 7px;
+    padding: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.add-more{
+    margin: 0;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+}
