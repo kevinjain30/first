@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Lexend", serif;
+}
+
+#container{
+    background-image: linear-gradient(black 9%, transparent, black), url(./bg-image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav{
+    /* border: 1px solid wheat; */
+    height: 100px;
+}
+
+#main-form{
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+    height: 575px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.605);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    padding: 50px 60px;
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.text{
+    padding: 10px;
+    width: 92%;
+    font-size: 16px;
+    height: 35px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.605);
+    border: 1px solid dimgray;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.text:hover{
+    border: 1px solid white;
+}
+
+#sign-in-btn{
+    background-color: #e60914;
+    color: white;
+    width: 100%;
+    padding: 10px 60px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid transparent;
+}
+#sign-in-btn:hover, #code:hover{
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+}
+.or, .new{
+    margin: 20px 0;
+    color: dimgray;
+}
+
+.or{
+    text-align: center;
+}
+
+.new a{
+    color: white;
+}
+
+#code{
+    background-color: #5553539a;
+    color: white;
+    width: 100%;
+    padding: 10px 60px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+#f-p{
+    display: block;
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+}
+#f-p:hover{
+    color: white;
+    text-decoration: underline;
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid blue; */
+    font-family: "Lexend", serif;
+}
+
+#container{
+    background-image: linear-gradient(to bottom, black 9%, transparent, black), linear-gradient(to top, rgba(0, 0, 0, 0.416), transparent), url(./bg-image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /* border: 1px solid white; */
+}
+
+#user{
+    /* background-color: white ; */
+    vertical-align: top;
+    margin-left: 8px;
+    /* border: 1px solid red; */
+    vertical-align: top;
+    margin-top: 49px;
+    /* box-shadow: 0px 0px 10px rgb(255, 255, 255); */
+    object-fit: cover;
+    border-radius: 50%;
+}
+#user:hover{
+    cursor: pointer;
+    width: 52px;
+}
+
+nav{
+    /* border: 1px solid yellow; */
+    display: block;
+}
+
+#img{
+    /* border: 1px solid blue; */
+    width: 270px;
+    margin-bottom: -20px;
+}
+
+nav #sign{
+    display: inline-block;
+    text-align: top;
+    margin-left: 950px;
+    /* border: 1px solid red; */
+    padding-top: 49px;
+    vertical-align: top;
+}
+
+#drop, #btn{
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 3px 0px 5px dimgray;
+}
+
+#btn{
+    background-color: #e60914;
+
+}
+
+#drop, #btn:hover{
+    cursor: pointer;
+}
+
+#main-content{
+    color: white;
+    text-align: center;
+}
+
+.heading, .heading1{
+    font-size: 60px;
+}
+.heading1{
+    margin-top: 90px;
+    font-size: 60px;
+}
+
+#form{
+    display: inline-block;
+}
+
+#price{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+#para{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#reg-form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#form-btn{
+    background-color: #e60914;
+    color: white;
+    border: 0;
+    box-shadow: 3px 0px 10px rgb(119, 118, 118);
+
+}
+
+#email, #form-btn{
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+#form-btn:hover{
+    cursor: pointer;
+}
+
+input{
+    background-color: #302e2eae;
+    color: white;
+}
