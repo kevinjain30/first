@@ -16,40 +16,21 @@
     /* border: 1px solid white; */
 }
 
-#user{
-    /* background-color: white ; */
-    vertical-align: top;
-    margin-left: 8px;
-    /* border: 1px solid red; */
-    vertical-align: top;
-    margin-top: 49px;
-    /* box-shadow: 0px 0px 10px rgb(255, 255, 255); */
-    object-fit: cover;
-    border-radius: 50%;
+#img{
+    width: 270px;
 }
-#user:hover{
-    cursor: pointer;
-    width: 52px;
+
+#nav-bar{
+    justify-content: center;
+    display: flex;
 }
 
 nav{
-    /* border: 1px solid yellow; */
-    display: block;
-}
-
-#img{
-    /* border: 1px solid blue; */
-    width: 270px;
-    margin-bottom: -20px;
-}
-
-nav #sign{
-    display: inline-block;
-    text-align: top;
-    margin-left: 950px;
-    /* border: 1px solid red; */
-    padding-top: 49px;
-    vertical-align: top;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
 }
 
 #drop, #btn{
@@ -59,10 +40,8 @@ nav #sign{
     border-radius: 8px;
     background-color: black;
     color: white;
-    border: 1px solid white;
-    box-shadow: 3px 0px 5px dimgray;
+    border: 1px solid rgba(255, 255, 255, 0.537);
 }
-
 #btn{
     background-color: #e60914;
 
@@ -72,33 +51,32 @@ nav #sign{
     cursor: pointer;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #main-content{
     color: white;
-    text-align: center;
+    /* border: 1px solid white; */
+    width: 50%;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading, .heading1{
     font-size: 60px;
 }
 .heading1{
-    margin-top: 90px;
     font-size: 60px;
 }
-
-#form{
-    display: inline-block;
-}
-
 #price{
     font-size: 23px;
     margin-top: 20px;
 }
-
-#para{
-    font-size: 20px;
-    margin-top: 20px;
-}
-
 #reg-form{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -125,4 +103,8 @@ nav #sign{
 input{
     background-color: #302e2eae;
     color: white;
+}
+#para{
+    font-size: 20px;
+    margin-top: 20px;
 }

@@ -9,28 +9,31 @@
 </head>
 <body>
     <div id="container">
-        <nav>
-            <a href="https://netflix.com" target="_blank"><img id="img" src="./netflix_img-removebg-preview.png" alt="Netflix"></a>
-            <div id="sign">
-                <select id="drop">
-                    <option>English</option>
-                    <option>हिन्दी</option>
-                </select>
-                <a href="./form.html">
-                    <button id="btn" type="button">Sign In</button>
-                </a>                                
+        <div id="nav-bar">
+            <nav>
+                <a href="https://netflix.com" target="_blank"><img id="img" src="./netflix_img-removebg-preview.png" alt="Netflix"></a>
+                <div id="sign">
+                    <select id="drop">
+                        <option>English</option>
+                        <option>हिन्दी</option>
+                    </select>
+                    <a href="./form.html">
+                        <button id="btn" type="button">Sign In</button>
+                    </a>                                
+                </div>
+            </nav>
+        </div>
+        <main>
+            <div id="main-content">
+                <h1 class="heading1">Unlimited movies,</h1>
+                <h1 class="heading">TV shows and more</h1>
+                <h4 id="price">Starts at ₹149. Cancel at any time.</h4>
+                <p id="para">Ready to watch? Enter your email to create or restart your membership.</p>
+                <form id="reg-form">
+                    <input type="email" placeholder="Email address" id="email" size="40" name="mail" required>
+                    <button id="form-btn">Get Started</button>
+                </form>
             </div>
-            <a href="#"><img src="./user2-removebg-preview.png" id="user" width="50" alt="user"></a>
-        </nav>
-        <main id="main-content">
-            <h1 class="heading1">Unlimited movies,</h1>
-            <h1 class="heading">TV shows and more</h1>
-            <h4 id="price">Starts at ₹149. Cancel at any time.</h4>
-            <p id="para">Ready to watch? Enter your email to create or restart your membership.</p>
-            <form id="reg-form">
-                <input type="email" placeholder="Email address" id="email" size="40" name="mail" required>
-                <button id="form-btn">Get Started</button>
-            </form>
         </main>
     </div>
 </body>
